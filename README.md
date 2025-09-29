@@ -24,8 +24,8 @@ This project was built to stand up a safe, on-prem domain and practice identity 
 - (Optional) **Slack/Email** webhook for Splunk alert notifications.
 
 ## Video Walkthrough
-  **Full end-to-end video walkthrough: `[Video Link Here soon]`.**
----
+  *Full end-to-end video walkthrough: `[Video Link Here soon]`.*
+
 
 ## Steps
 `[Images need to be uploaded]`
