@@ -6,14 +6,13 @@ This project was built to stand up a safe, on-prem domain and practice identity 
 
 
 ### Skills Learned
-- Designed a minimal AD forest: promoted a Windows Server to Domain Controller with DNS and time sync considerations.
-- Created OUs, users, and groups; applied scoped GPOs (password policy, account lockout, audit policy, RDP restrictions).
-- Hardened baselines using GPO (e.g., disable legacy protocols where applicable, event log sizes, PowerShell logging).
-- Joined a Windows 10 client to the domain and validated Kerberos/NTLM behavior.
-- Enabled detailed auditing and **Sysmon** to capture process/registry/network telemetry.
-- Ingested Windows + Sysmon logs into **Splunk**, created an `endpoint` index, and verified field extractions.
-- Wrote searches/alerts for lockouts, lateral-movement indicators, suspicious parent/child process chains, and policy changes.
-- Documented change control and rollback (link GPOs to OUs; test via gpresult; version your configs).
+- Deeper understanding of identity and access management in Active Directory (users, groups, OUs, GPO scope).
+- Proficiency interpreting Windows Security and Sysmon logs and correlating them in a SIEM (Splunk).
+- Ability to recognize patterns in authentication activity (failed/successful logons, account lockouts, lateral-movement signals).
+- Stronger grasp of Kerberos/NTLM, DNS dependencies, and how directory services impact security posture.
+- Experience developing practical detections for AD-related events (policy changes, suspicious parent/child processes, RDP misuse).
+- Improved troubleshooting, analytical reasoning, and incident triage skills in a domain environment.
+
 
 ### Tools Used
 - **Windows Server** (Domain Controller: AD DS, DNS) and **Windows 10** (domain-joined client).
